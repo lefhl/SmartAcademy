@@ -76,7 +76,7 @@ ul {
 	text-align: center;
 	line-height: 50px;
 	font-weight: bold;
-
+	border: none;
 }
 
 .signUp:hover, .signUp_m-menu:hover, .button:hover {
@@ -383,8 +383,13 @@ input::-moz-placeholder { color: #ababab; }
 	color: #ababab;
 	margin-bottom: 0;
 }
-.resent_content:first-child .resent_headline {
+.headline_article {
+	color: black;
+	font-weight: bold;
+}
+.headline_article:hover {
 	color: #0f7bff;
+	cursor: pointer;
 }
 
 .category_block {

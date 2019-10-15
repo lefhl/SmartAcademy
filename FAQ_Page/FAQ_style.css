@@ -76,7 +76,7 @@ ul {
 	text-align: center;
 	line-height: 50px;
 	font-weight: bold;
-
+	border: none;
 }
 
 .signUp:hover, .signUp_m-menu:hover, .button:hover {
@@ -215,6 +215,7 @@ ul {
 	text-align: center;
 	line-height: 30px;
 	border-radius: 3px;
+	background-color: #fff;
 }
 .utility_option:hover {
 	color: #fff;
@@ -359,11 +360,15 @@ details {
 		align-items: center;
 	}
 	.left_side_bar {
-		width: 360px;
+		width: 100%;
 		margin-bottom: 40px;
 	}
 	.side_bar_option {
 		margin-right: 0;
+		width: 100%;
+		font-size: 1.5em;
+		text-align: center;
+		height: 80px;
 	}
 	.footer  {
 
@@ -395,6 +400,13 @@ details {
 	.copyrights.wrapper {
 		width: 95%;
 	}
+	.utility_option {
+		width: 140px;
+		height: 51px;
+	}
+	.utility {
+		font-size: 1.5em;
+	}
 }
 @media (max-width: 800px) {
 	.main {
@@ -423,6 +435,10 @@ details {
 	}
 	.appson_about p {
 		display: none;
+	}
+	.yes-no-block {
+		display: block;
+		margin-top: 40px;
 	}
 	
 }
@@ -460,6 +476,9 @@ details {
 		flex-direction: column;
 		justify-content: center;
 	}
+	.header_content h2 {
+    font-size: 1.5em;
+	}
 }
 
 @media (max-width: 400px){
@@ -469,8 +488,7 @@ details {
 	.side_bar_option {
 		width: 100%;
 	}
-	.yes-no-block {
-		display: block;
-		margin-top: 40px;
+	.header_content h2 {
+    font-size: 1.25em;
 	}
 }
