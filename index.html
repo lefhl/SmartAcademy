@@ -4,47 +4,57 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<script src="https://kit.fontawesome.com/2b3c485370.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 	<title>AppSon</title>
 </head>
 <body>
-	<div class="header">
-		<div class="logo">
-			AppSon
-		</div>
-		<ul class="menu">
-			<li>HOME</li>
-			<li>FEATURES</li>
-			<li>PRICING</li>
-			<li>PAGES</li>
+	<div class="header_bg">
+		<ul class="m-menu">
+			<li class="close_menu"><a href="">&times</a></li>
+			<li><a href="../index.html" class="menu-link">HOME</a></li>
+			<li><a href="" class="menu-link">FEATURES</a></li>
+			<li><a href="" class="menu-link">PRICING</a></li>
+			<li><a href="" class="menu-link">PAGES</a></li>
 		</ul>
-		
-		<div class="links">
-			
-			<ul class="dropdown_menu">
-				<li> LINKS
-					<ul class="submenu">
-						<li><a href="#">HOME</a></li>
-						<li><a href="#features">FEATURES</a></li>
-						<li><a href="#pricing">PRICING</a></li>
-						<li><a href="#">PAGES</a></li>
+		<div class="header" id="header">
+			<div class="mobile-wrapper">
+				<div class="logo">
+					<h2>AppSon</h2>
+				</div>
+				<div class="wrapper">
+					<ul class="menu">
+						<li><a href="../index.html">HOME</a></li>
+						<li><a href="../index.html#features">FEATURES</a></li>
+						<li><a href="../index.html#pricing">PRICING</a></li>
+						<li><a href="">PAGES</a></li>
 					</ul>
-				</li>
-			</ul>
+				</div>
+				<a href="sign_up/sign_up.html#get_sign_up" class="s_u_btn_style">
+					<button class="signUp">Sign Up</button>
+				</a>
+				<a href="" class="m-menu-link">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
 		</div>
-		<div class="button sighUp">
-			<a href="sigh_up/sigh_up.html#get_sigh_up">SIGN UP</a>
+		<div class="header_content">
+			<div class="wrapper elements">
+		          <h3>Best Desctop App for You</h3>
+		          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		          <div class="call_to_action">
+			        	<div class="button download">Download</div>
+			         	<div class="button freeTrial">Free Trial</div> 
+		          </div>
+        	</div> 
 		</div>
-		<div class="wrapper elements">
-              <h3>Best Desctop App for You</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <div class="button download">Download</div>
-              <div class="button freeTrial">Free Trial</div>
-            
-            </div>
 	</div>
+	 
+
 	<div class="features" id="features">
 		<div class="wrapper flexContainer">
 			<div class="flexElement">
@@ -76,10 +86,9 @@
 					<h4>Easy messaging</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia quaerat, consequatur eaque perferendis obcaecati ad tempora vitae quidem! Dolores voluptatem, exercitationem reiciendis officiis facilis mollitia labore consequatur velit qui totam.</p>
 					<div>
-						<a href="">Read more
-							<div class="right_arrow"></div>
+						<a href="">Read more 
+							 <i class="fas fa-arrow-right"></i>
 						</a>
-
 					</div>
 
 				</div>
@@ -89,8 +98,8 @@
 					<h4>Keep in touch</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque modi facere voluptatibus reprehenderit, quidem eaque, amet doloribus, error inventore, quisquam totam magni cumque. Quibusdam, eum placeat blanditiis, necessitatibus vero ducimus.</p>
 					<div>
-						<a href="">Read more
-							<div class="right_arrow"></div>
+						<a href="">Read more 
+							 <i class="fas fa-arrow-right"></i>
 						</a>
 					</div>
 				</div>
@@ -98,42 +107,47 @@
 			</div>
 		</div>
 	</div>
-	<div class="how_work wrapper">
+	<div class="how_work_bg">
+		<div class="how_work wrapper">
 		<h4>How Does It Work?</h4>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia nihil voluptas repudiandae, officiis sunt quia voluptatum ipsam, in blanditiis temporibus?</p>
 		<div class="how_work_main">
-			<hr size="1px" width=55%" color="#0f7bff">
-			<div class="how_work_content">
+			<div class="how_work_img">
+				
 				<img src="images/Homepage/how_work_icon1.png" alt="">
-				<h5>Create An Account</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio numquam quia quaerat!</p>
-			</div>
-			<div class="how_work_content">
 				<img src="images/Homepage/how_work_icon2.png" alt="">
-				<h5>Confirm Email</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio numquam quia quaerat!</p>
+				<img src="images/Homepage/how_work_icon3.png" alt="">
+				<hr size="1px" width=55%" color="#0f7bff">
 			</div>
 			<div class="how_work_content">
-				<img src="images/Homepage/how_work_icon3.png" alt="">
-				<h5>See Result</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio numquam quia quaerat!</p>
+				<div class="how_work_option">
+					<h5>Create An Account</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				</div>
+				<div class="how_work_option">
+					<h5>Confirm Email</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				</div>
+				<div class="how_work_option">
+					<h5>See Result</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				</div>
 			</div>
 		</div>
 	</div>
+	</div>
 	<div class="pricing wrapper" id="pricing">
 		<div class="price_description">
-			<h4>Pricing Plan</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dolores cumque excepturi doloremque, quis accusantium. Molestias possimus debitis consequatur? Magni, repellat, earum?</p>
+			<h3>Pricing Plan</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.</p>
 			<div class="pricing_button">
-				<div class="mothly_paing"></div>
-				<div class="yearly_paing"></div>
+				<button class="rate_btn">Monthly</button>
+				<button class="rate_btn">Yearly</button>
 			</div>
 		</div>
 		<div class=""></div>
 		<div class="kind_of_plan">
-			<br>
-			<img src="images/Homepage/kind_of_plan_logo1.png" alt="">
-			<br>
+			<div class="kind_plan_img1"></div>
 			<h5>Standart</h5>
 			<hr size="1px" width="50%" color="#ababab">
 			<p>
@@ -149,9 +163,7 @@
 			<div class="button">Try Now</div>
 		</div>
 		<div class="kind_of_plan">
-			<br>
-			<img src="images/Homepage/kind_of_plan_logo2.png" alt="">
-			<br>
+			<div class="kind_plan_img2"></div>
 			<h5>Standart</h5>
 			<hr size="1px" width="50%" color="#ababab">
 			<p>
@@ -174,27 +186,27 @@
 			<div class="reviews_container">
 				<div class="review_block">
 					<div class="customer_name">
-						<div>Raisa Mani</div>
-						<div><img src="images/Homepage/twitter.png" alt=""></div>
+						<div>Raisa Mani</div> 
+						<div><i class="fab fa-twitter"></i></div>
 					</div>
 					<div class="description">Envata Customer</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum in at quod accusantium excepturi, fuga alias.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
 				</div>
 				<div class="review_block">
 					<div class="customer_name">
 						<div>Raisa Mani</div>
-						<div><img src="images/Homepage/twitter.png" alt=""></div>
+						<div><i class="fab fa-twitter"></i></div>
 					</div>
 					<div class="description">Envata Customer</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum in at quod accusantium excepturi, fuga alias.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
 				</div>
 				<div class="review_block">
 					<div class="customer_name">
 						<div>Raisa Mani</div>
-						<div><img src="images/Homepage/twitter.png" alt=""></div>
+						<div><i class="fab fa-twitter"></i></div>
 					</div>
 					<div class="description">Envata Customer</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum in at quod accusantium excepturi, fuga alias.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.</p>
 				</div>
 			</div>
 			<div class="review_turn">
@@ -227,7 +239,7 @@
 					</div>
 					<div class="article">
 						<div class="headline_article">The master bedroom suite is phenomenally spacious</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eius, quasi nesciunt quidem.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
 					</div>
 				</div>
 				<div class="secondary_content">
@@ -236,7 +248,7 @@
 					</div>
 					<div class="article">
 						<div class="headline_article">The master bedroom suite is phenomenally spacious</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eius, quasi nesciunt quidem.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
 					</div>
 				</div>
 				<div class="secondary_content">
@@ -245,7 +257,7 @@
 					</div>
 					<div class="article">
 						<div class="headline_article">The master bedroom suite is phenomenally spacious</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eius, quasi nesciunt quidem.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
 					</div>
 				</div>
 			</div>
@@ -257,23 +269,23 @@
 				<h4>Try 30 Days Free Trial</h4>
 				<p>Lorem ipsum dolor sit.</p>
 			</div>
-			<div class="get_started_button">
-				Get Started <img src="images/Homepage/right-arrow-white.png" alt="">
-			</div>
+			<button class="get_started_button">
+				Get Started <i class="fas fa-arrow-right"></i>
+			</button>
 		</div>
 	</div>
 	<div class="subscribe_block_bg">
 		<div class="subscribe_block wrapper">
-			<h3>AppSon</h3>
+			<h2>AppSon</h2>
 			<br>
 			<div class="subscribe_form">
 				
 					<input type="text" placeholder="Enter Your Email">
 				
 				
-				<div class="subscribe_button">
+				<button class="subscribe_button">
 					SUBSCRIBE
-				</div>
+				</button>
 			</div>
 		</div>
 	</div>
@@ -286,17 +298,38 @@
 				<a href="">Help</a>
 			</div>
 			<div class="social">
-				<img src="images/Homepage/facebook.png" alt="">
-				<img src="images/Homepage/twitter_gray.png" alt="">
-				<img src="images/Homepage/youtube.png" alt="">
-
+				<i class="fab fa-facebook-f"></i>  
+				<i class="fab fa-twitter"></i> 
+				<i class="fab fa-youtube"></i> 
 		</div>
 			<div class="scroll">
-				<img src="images/Homepage/scroll.png" alt="">
+				<a href="#header">
+					<img src="images/Homepage/scroll.png" alt="">
+				</a>
 			</div>
 		</div>
 				
 	</div>
+	<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+  <script>
+  	$(function() {
+  		var link = $('.m-menu-link');
+  		var close = $('.close_menu');
+  		var menu = $('.m-menu');
+  		link.on('click', function(event) {
+  			event.preventDefault();
+  			menu.toggleClass('m-menu_active');
+  		});
+  		close.on('click', function(event) {
+  			event.preventDefault();
+  			menu.toggleClass('m-menu_active');
+  		});
+  		});
+  	
+  </script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
