@@ -6,44 +6,72 @@
 	<!-- Fontawesome -->
 	<script src="https://kit.fontawesome.com/2b3c485370.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style_blog.css">
-	<title>AppSon blog</title>
+	<title>AppSon Blog</title>
 </head>
 <body>
+	<ul class="m-menu">
+		<li class="close_menu"><a href="">&times</a></li>
+		<li><a href="../index.html" class="menu-link">HOME</a></li>
+		<li><a href="" class="menu-link">FEATURES</a></li>
+		<li><a href="" class="menu-link">PRICING</a></li>
+		<li><a href="" class="menu-link">PAGES</a></li>
+	</ul>
 	<div class="header" id="header">
-		<h2>AppSon</h2>
-		<div class="wrapper">
-			<div class="menu">
-			<a href="../index.html">HOME</a>
-			<a href="">FEATURES</a>
-			<a href="">PRICING</a>
-			<a href="">PAGES</a>
+		<div class="mobile-wrapper">
+		
+			<h2>AppSon</h2>
+			<div class="wrapper">
+
+				<ul class="menu">
+					<li><a href="../index.html">HOME</a></li>
+					<li><a href="../index.html#features">FEATURES</a></li>
+					<li><a href="../index.html#pricing">PRICING</a></li>
+					<li><a href="">PAGES</a></li>
+				</ul>
+			</div>
+			<a href="../sign_up/sign_up.html#get_sign_up">
+				<button class="signUp">Sign Up</button>
+			</a>
+			<a href="" class="m-menu-link">
+				<i class="fa fa-bars"></i>
+			</a>
 		</div>
-		</div>
-		<div class="sighUp">
-			SighUp
-		</div>
+	</div>
 	</div>
 	<div class="underline_header">
 		<div class="wrapper">
 			<div class="header_content">
-				<p>Latest Info</p>
+				<p><a href="../blog_page/blog.html">Latest Info</a></p>
 				<h2>OUR BLOG POST</h2>
-				<p>Home - Right Side Bar Blog</p>
+				<p><a href="../index.html">Home - Right Side Bar Blog</a></p>
 			</div>
-			<div class="header_img">
-				<!-- <img src="../images/blog_img/header_img.png"> -->
+			<div class="header_img"></div>
+			<div class="m-display">
+				<p><a href="../blog_page/blog.html">Latest Info</a></p>
+				<p><a href="../index.html">Home - Right Side Bar Blog</a></p>
 			</div>
-			
 		</div>
+	</div>
+
+
+
+
 	</div>
 	<div class="articles wrapper">
 		<div class="left_side">
-			<div class="article">
-				<div class="preview"><img src="../images/blog_img/first_artical_left.jpg" alt=""></div>
+			<div class="search_field mobile_search_field">
+				<input type="text" placeholder="Search">
+				<div class="button_part"></div>
+			</div>
+			<div class="article first_article">
+				<div class="preview">
+					<!--  <img src="../images/blog_img/first_artical_left.jpg" alt=""> -->
+				</div> 
 				<div class="article_content">
 					<div class="headline_article">The master bedroom suite is spaci of </div>
 					<div class="description_article">
@@ -66,7 +94,8 @@
 				</div>
 			</div>
 			<div class="article">
-				<div class="preview"><img src="../images/blog_img/second_article_left.jpg" alt=""></div>
+				<div class="preview">
+					<!-- <img src="../images/blog_img/second_article_left.jpg" alt=""> --></div>
 				<div class="article_content">
 					<div class="headline_article">The master bedroom suite is spaci of </div>
 					<div class="description_article">
@@ -89,7 +118,7 @@
 				</div>
 			</div>
 			<div class="article">
-				<div class="preview"><img src="../images/blog_img/third_article_left.jpg" alt=""></div>
+				<div class="preview"><!-- <img src="../images/blog_img/third_article_left.jpg" alt=""> --></div>
 				<div class="article_content">
 					<div class="headline_article">The master bedroom suite is spaci of </div>
 					<div class="description_article">
@@ -112,7 +141,7 @@
 				</div>
 			</div>
 			<div class="article">
-				<div class="preview"><img src="../images/blog_img/fourth_article_left.jpg" alt=""></div>
+				<div class="preview"><!-- <img src="../images/blog_img/fourth_article_left.jpg" alt=""> --></div>
 				<div class="article_content">
 					<div class="headline_article">The master bedroom suite is spaci of </div>
 					<div class="description_article">
@@ -135,16 +164,16 @@
 				</div>
 			</div>
 			<div class="article">
-				<div class="preview"><img src="../images/blog_img/fifth_article_left.jpg" alt=""></div>
+				<div class="preview"><!-- <img src="../images/blog_img/fifth_article_left.jpg" alt=""> --></div>
 				<div class="article_content">
 					<div class="headline_article">The master bedroom suite is spaci of </div>
 					<div class="description_article">
 						<div class="calendar">
 							<i class="far fa-calendar-alt"></i> 16 June, 2018
-							<i class="far fa-comment-alt"></i> 22
+							
 						</div>
 						<div class="comments">
-							
+							<i class="far fa-comment-alt"></i> 22
 						</div>
 						<div class="likes">
 							<i class="far fa-heart"></i> 36
@@ -226,6 +255,17 @@
 				<div class="tags">Awards</div>
 			</div>
 		</div>
+		<div class="popular_tags popular_tags_display">
+				<h4>Popular Tags</h4>
+				<div class="tags">Apps</div>
+				<div class="tags">Awards</div>
+				<div class="tags">Web Template</div>
+				<div class="tags">Awards</div>
+				<div class="tags">Web Template</div>
+				<div class="tags">UI</div>
+				<div class="tags">Web Template</div>
+				<div class="tags">Awards</div>
+			</div>
 	</div>
 	<div class="footer">
 		<div class="wrapper">
@@ -276,12 +316,6 @@
 				<a href="">Privacy Policy</a>
 				<a href="">Help</a>
 			</div>
-			<div class="social">
-				<img src="images/Homepage/facebook.png" alt="">
-				<img src="images/Homepage/twitter_gray.png" alt="">
-				<img src="images/Homepage/youtube.png" alt="">
-
-		</div>
 			<div class="scroll">
 				<a href="#header">
 					<img src="../images/blog_img/Scroll_up.png" alt="">
@@ -290,6 +324,27 @@
 		</div>
 				
 	</div>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	 <script>
+  	$(function() {
+  		var link = $('.m-menu-link');
+  		var close = $('.close_menu');
+  		var menu = $('.m-menu');
+  		link.on('click', function(event) {
+  			event.preventDefault();
+  			menu.toggleClass('m-menu_active');
+  		});
+  		close.on('click', function(event) {
+  			event.preventDefault();
+  			menu.toggleClass('m-menu_active');
+  		});
+  		});
+  	
+  </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
