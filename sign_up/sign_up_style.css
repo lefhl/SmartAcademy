@@ -75,7 +75,7 @@ ul {
 	text-align: center;
 	line-height: 50px;
 	font-weight: bold;
-
+	border: none;
 }
 
 .signUp:hover, .signUp_m-menu:hover, .button:hover {
@@ -437,5 +437,14 @@ p, .or {
 
 	.main > * {
 	margin-top: 25px;
-}
+	}
+	.button {
+	width: 300px;
+	}
+	.alternate_sign_up {
+		width: 100%;
+	}
+	.sign_up_social {
+		width: 100%;
+	}
 }
